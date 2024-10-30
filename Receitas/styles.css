@@ -1,0 +1,91 @@
+.carne-link {
+    display: inline-block;
+}
+
+.carne-link {
+    width: 500px;
+    transition: transform 0.3s ease;
+}
+
+.carne-link:hover .carne-link {
+    transform: scale(1.1);
+    margin-left: 150px;
+}
+
+.carne-link {
+
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.massa-link {
+    display: inline-block;
+}
+
+.massa-link {
+    width: 500px;
+    transition: transform 0.3s ease;
+}
+
+.massa-link:hover .massa-link {
+    transform: scale(1.1);
+}
+
+.peixe-link {
+    display: inline-block;
+}
+
+.peixe-link {
+    width: 500px;
+    transition: transform 0.3s ease;
+}
+
+.peixe-link:hover .peixe-link {
+    transform: scale(1.1);
+}
+
+.sobremesas-link {
+    display: inline-block;
+}
+
+.sobremesas-link {
+    width: 500px;
+    transition: transform 0.3s ease;
+}
+
+.sobremesas-link:hover .sobremesas-link {
+    transform: scale(1.1);
+}
+
+.cafe-link {
+    display: inline-block;
+}
+
+.cafe-link {
+    width: 500px;
+    transition: transform 0.3s ease;
+}
+
+.cafe-link:hover .cafe-link {
+    transform: scale(1.1);
+}
+
+.salada-link {
+    display: inline-block;
+}
+
+.salada-link {
+    width: 500px;
+    transition: transform 0.3s ease;
+}
+
+.salada-link:hover .salada-link {
+    transform: scale(1.1);
+}

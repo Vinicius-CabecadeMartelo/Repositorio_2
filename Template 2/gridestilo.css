@@ -1,0 +1,54 @@
+body.ul,
+p,
+li {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 800px;
+    padding: 10px;
+    gap: 20px;
+    margin: 0 auto;
+}
+
+.grid1>div:nth-child(n+4) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    align-items: center;
+}
+
+.grid1>div.anuncio {
+    grid-column: 1;
+    grid-row: 2/5;
+    border: 3px solid;
+    display: block;
+}
+
+.grid1 div p {
+    text-align: center;
+}
+
+@media(max-width=600px) {
+    grid1 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .grid>div.anuncio {
+        grid-column: auto;
+        grid-row: auto;
+        order -1;
+    }
+
+}
+
+anuncio img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: black;
+}
